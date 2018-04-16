@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Calculus</string>
+    <string-array name="Derivatives">
+        <item>cu^1</item>
+        <item>uv^1 + vu^1</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/div_equation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/input_divtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="n(x^n-1)"
+        android:textSize="@android:dimen/app_icon_size"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_divequation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Input X here"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/Basic_Div"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Equation" />
+
+    <Button
+        android:id="@+id/calculate_derviative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Derviative"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/out_steps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+</LinearLayout>
